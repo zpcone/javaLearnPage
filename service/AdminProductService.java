@@ -10,7 +10,7 @@ import com.itheima.vo.Condition;
 
 public class AdminProductService {
 	
-	//查询所有的商品
+	//查询所有的商品gldfjhkl
 	public List<Product> findAllProduct() throws SQLException {
 		//因为没有复杂业务 直接传递请求到dao层
 		AdminProductDao dao = new AdminProductDao();
