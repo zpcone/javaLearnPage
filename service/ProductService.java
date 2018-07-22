@@ -15,7 +15,7 @@ public class ProductService {
 		return dao.findAllProduct();
 	}
 
-	//分页操作
+	//分页操作逻辑合理开发工具
 	public PageBean findPageBean(int currentPage,int currentCount) throws SQLException  {
 		
 		ProductDao dao = new ProductDao();
